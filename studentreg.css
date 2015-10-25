@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	width: 50%;
+	height:100%;
+	margin: 15px;
+	padding: 0;
+	}
+.table {
+	display: table;
+	border-width: bold;
+}
+.line {
+   border: solid;
+}
+td 
+{
+	border: solid;
+}
+.title{
+	display: table-caption;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+.cell {
+		display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+		width: 10%;
+}
+.row
+    {
+        display: table-row;
+   }
+.heading {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+}
